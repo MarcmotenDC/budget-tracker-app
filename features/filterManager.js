@@ -1,6 +1,6 @@
 // filterManager.js
 // Handles filtering transactions based on the selected type (Income or Expense).
-import { getTransactions } from "../data/dataManager";
+import { getTransactions } from "../data/dataManager.js";
 // TODO: Implement the function to filter transactions based on the selected type
 export function filterTransactionsByType(type) {
     // TODO: Return transactions filtered by type (Income or Expense)
